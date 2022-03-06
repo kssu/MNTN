@@ -1,0 +1,40 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/_animate';
+@import 'libs/fonts';
+@import url(//db.onlinewebfonts.com/c/647a7208a3f353750207213a569815d4?family=Chronicle+Display);
+* {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Gilroy Medium';
+    font-family: 'Gilroy Bold';
+    font-family: 'Gilroy Regular';
+    
+
+    /* background: url('../img/bg.jpg') center center/cover no-repeat; */
+    /* background-color: #354147; */
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.green {
+    background-color: #0B1D26;
+    position: relative;
+    height: auto;
+
+}
+
+
+@import 'blocks/_headers';
+@import 'blocks/social';
+@import 'blocks/start';
+@import 'blocks/_promo';
+@import 'blocks/part';
+@import 'blocks/footer';
+@import 'blocks/_login';
+@import 'blocks/_contact';
+@import 'blocks/media';
